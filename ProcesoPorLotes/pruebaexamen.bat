@@ -62,9 +62,8 @@ goto menu
 exit /b
 
 :crear_archivo_usuario_fecha_hora
-set hora=%TIME%
-set fecha=%DATE%
 echo %TIME%;%DATE%>%USERNAME%.txt
+echo Se ha creado correctamente
 
 pause
 goto menu
